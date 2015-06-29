@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AppCompat." parent="Theme.AppCompat.NoActionBar">
+
+        <!-- Actionbar 的背景色設定在 style 中的 colorPrimary。 -->
+        <item name="colorPrimary">@color/my_primary</item>
+
+        <!--狀態列背景色 -->
+        <item name="colorPrimaryDark">@color/my_primary_dark</item>
+
+        <!-- 各控制元件(如：check box、switch 或是 radoi) 被勾選 (checked) 或是選定 (selected) 的顏色。 -->
+        <item name="colorAccent">@color/my_accent</item>
+
+        <!--App bar 上的標題與更多選單中的文字顏色。-->
+        <item name="android:textColorPrimary">@color/my_primary_text</item>
+
+
+        <item name="android:textColorSecondary">@color/my_secondary_text</item>
+
+         <!-- App 的背景色。 -->
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+
+    <style name="AppBaseTheme" parent="Base.Theme.AppCompat.">
+
+    </style>
+
+
+    <style name="AppTheme" parent="AppBaseTheme">
+
+
+    </style>
+
+
+</resources>
